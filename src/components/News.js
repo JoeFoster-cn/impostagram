@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import './News.css'
 
-class News extends Component {
+class News extends React.Component {
     render() {
         return <article className="News" ref="News">
             <header>
@@ -12,6 +12,9 @@ class News extends Component {
                     <div className="Post-user-nickname">
                         <span>Zola</span>
                     </div>
+                    <div className="Ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
                 </div>
             </header>
             <div className="Post-image">
@@ -19,8 +22,18 @@ class News extends Component {
                     <img alt="Cake" src='../images/cake.jpg' />
                 </div>
             </div>
+            <div className="Like-btns">
+                <p>
+                <i class="far fa-heart"></i>
+                <i class="far fa-comment"></i>
+                <i class="fas fa-share"></i>
+                </p>
+                <p>
+                <i class="fas fa-heart"></i> 420 Likes
+                </p>
+            </div>
             <div className="Post-caption">
-                <strong>Zola</strong> Feeding the world!
+                <strong>Zola</strong> - Made a cake!
             </div>
         </article>
     }
