@@ -1,0 +1,12 @@
+.storiesContainer {
+    display: flex;
+    width: 250px;
+    margin: 0;
+    padding: 5px;
+    flex: 1 1 auto;
+    border: 1px solid rgba(202, 193, 193, 0.42);
+    border-radius: 5%;
+    text-align: left;
+    justify-content: space-between;
+    /* box-shadow: 10px -10px 5px #CCC; */
+}
