@@ -10,7 +10,7 @@ class News extends React.Component {
                         <img src='../images/ridge.jpg' alt="ridge" />
                     </div>
                     <div className="Post-user-nickname">
-                        <span>Zola</span>
+                        Zola
                     </div>
                     <div className="Ellipsis">
                         <i class="fas fa-ellipsis-h"></i>

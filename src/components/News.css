@@ -1,10 +1,11 @@
-.Post {
+.News {
     border-radius: 3px;
     border: 1px solid #e6e6e6;
     background-color: #fff;
     margin-bottom: 60px;
     margin-left : 20%;
     margin-right: 20%;
+    margin-top: 5%;
   }
   .Post-user {
     display: flex;
@@ -12,6 +13,7 @@
     align-items: center;
     justify-content: space-between;
     text-align: left;
+    border: 1px solid whitesmoke;
   }
   .Post-user-avatar {
     width: 30px;
@@ -23,9 +25,10 @@
     border-radius: 50%;
   }
   .Post-user-nickname {
-    margin-right:90%;
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
+    justify-content: flex-start;
+    align-items: left;
   }
   .Post-image-bg {
     background-color: #efefef;
