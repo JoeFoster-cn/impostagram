@@ -2,25 +2,28 @@ import './Navbar.css'
 
 function Navbar() {
     return (
-        <div className="navbarCont">
-            <div>
-                <img className="instaLogo" src='../images/Instagram.png' />
-            </div>
-            <div className="searchBar">
-                <input type="text"></input>
+        <nav className="navbarCont">
 
+            <img className="instaLogo" src='../images/Instagram.png' />
+
+            <div className="searchbar">
+                <input type="text"
+                    value= "Search"
+                    results ="0">
+                        
+                </input>
+                
             </div>
+
             <div className="iconContainer">
-
                 <i className="fas fa-home"></i>
-                <i class="far fa-paper-plane"></i>
-                <i class="far fa-compass"></i>
-                <i class="far fa-heart"></i>
-
-
+                <i className="far fa-paper-plane"></i>
+                <i className="far fa-compass"></i>
+                <i className="far fa-heart"></i>
                 <img className="profilePic" src="../images/Tommy.jpg" />
+
             </div>
-        </div>
+        </nav>
     )
 }
 

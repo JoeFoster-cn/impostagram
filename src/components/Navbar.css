@@ -1,14 +1,50 @@
+.navbarCont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1pt solid rgba(0, 0, 0, 0.171);
+}
+
 i{
-    width: 30px;
-    height: 30px;
+    font-size: 15pt;
+    width:40px
 }
 
 .profilePic{
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
+    margin-left: 10px;
 }
 
 .instaLogo{
-    width:100px
+    width:130px
 }
+
+input {
+    width:15rem;
+    height: 1.5rem;
+    background-color: rgba(128, 128, 128, 0.068);
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.596);
+    border-radius:3px;
+    color: grey;
+    text-align: center;
+}
+
+button{
+    border-style: none;
+    background-color: transparent;
+}
+
+.searchIcon{
+    width:15px;
+    background-color: transparent;
+}
+
+.searchbar{
+  width: 15rem;
+  margin-top: 10px;
+}
+
