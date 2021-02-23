@@ -17,6 +17,7 @@
     height: 22px;
     padding-top: 0;
     margin-top: 0;
+    padding: 0;
     font-weight: bold;
 }
 
@@ -25,7 +26,7 @@
     font-weight: bold;
     height:20px;
     display:inline-block;
-    padding-left: 50%;
+    padding-left: 55%;
 }
 
 .storyExamples {
@@ -50,6 +51,7 @@
     border-radius: 50%;
     border: 3px solid rgb(191, 88, 182);
     padding: 12%;
+    cursor: pointer;
 }
 .img2 {
     width: 30px;
@@ -57,6 +59,7 @@
     border-radius: 50%;
     border: 3px solid rgb(191, 88, 182);
     padding: 12%;
+    cursor: pointer;
 }
 .img3 {
     width: 30px;
@@ -64,6 +67,7 @@
     border-radius: 50%;
     border: 3px solid rgb(191, 88, 182);
     padding: 12%;
+    cursor: pointer;
 }
 .img4 {
     width: 30px;
@@ -71,6 +75,7 @@
     border-radius: 50%;
     border: 3px solid rgb(191, 88, 182);
     padding: 12%;
+    cursor: pointer;
 }
 
 .info {
@@ -95,24 +100,28 @@ h1 {
     width: 30px;
     height: 150px;
     text-align: center;
-    padding-left: 17%;
+    padding-left: 23%;
     padding-top: 4%;
 }
 
 #live1 {
+    font-size: 13px;
     background-color: rgb(201, 63, 86);
     border: none;
     border-radius: 10%;
     color: white;
     padding: 10%;
     margin-bottom: 10%;
+    cursor: pointer;
 }
 
 #live2 {
+    font-size: 13px;
     background-color: rgb(201, 63, 86);
     border: none;
     border-radius: 10%;
     color: white;
     padding: 10%;
     margin-bottom: 10%;
+    cursor: pointer;
 }
