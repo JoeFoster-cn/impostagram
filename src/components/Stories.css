@@ -1,6 +1,6 @@
 .storiesContainer {
     height: 230px;
-    width: 300px;
+    width: 270px;
     padding: 10px;
     border: 1px solid rgba(202, 193, 193, 0.42);
     border-radius: 5%;
@@ -17,6 +17,7 @@
     height: 22px;
     padding-top: 0;
     margin-top: 0;
+    font-weight: bold;
 }
 
 #watch {
@@ -24,10 +25,12 @@
     font-weight: bold;
     height:20px;
     display:inline-block;
+    padding-left: 50%;
 }
 
 .storyExamples {
     display: flex;
+    height: 180px;
 }
 
 .example1 {
@@ -45,29 +48,29 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 3px solid black;
-    padding: 10%;
+    border: 3px solid rgb(191, 88, 182);
+    padding: 12%;
 }
 .img2 {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 3px solid black;
-    padding: 10%;
+    border: 3px solid rgb(191, 88, 182);
+    padding: 12%;
 }
 .img3 {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 3px solid black;
-    padding: 10%;
+    border: 3px solid rgb(191, 88, 182);
+    padding: 12%;
 }
 .img4 {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 3px solid black;
-    padding: 10%;
+    border: 3px solid rgb(191, 88, 182);
+    padding: 12%;
 }
 
 .info {
@@ -83,15 +86,33 @@ h1 {
 
 #timeAgo {
     color: grey;
-    font-size: 8px;
+    font-size: 9px;
+    margin-top: 2%;
+    padding-bottom: 5%;
 }
 
-.livebuttons {
+.liveButtons {
     width: 30px;
-    height: 180px;
+    height: 150px;
+    text-align: center;
+    padding-left: 17%;
+    padding-top: 4%;
 }
 
-#live {
-    background-color: red;
+#live1 {
+    background-color: rgb(201, 63, 86);
+    border: none;
+    border-radius: 10%;
     color: white;
+    padding: 10%;
+    margin-bottom: 10%;
+}
+
+#live2 {
+    background-color: rgb(201, 63, 86);
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 10%;
+    margin-bottom: 10%;
 }

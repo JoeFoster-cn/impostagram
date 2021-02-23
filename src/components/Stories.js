@@ -23,19 +23,18 @@ const StoryExamples = () => {
             <div className="info">
                 <h1>Tommy Wiseau</h1>
                 <p id="timeAgo">8 MINUTES AGO</p>
-                <h1>Tommy Wiseau</h1>
-                <p id="timeAgo">8 MINUTES AGO</p>
-                <h1>Tommy Wiseau</h1>
-                <p id="timeAgo">8 MINUTES AGO</p>
-                <h1>Tommy Wiseau</h1>
+                <h1>Poppy</h1>
+                <p id="timeAgo">2 MINUTES AGO</p>
+                <h1>Prince</h1>
+                <p id="timeAgo">11 HOURS AGO</p>
+                <h1>Eva</h1>
                 <p id="timeAgo">8 MINUTES AGO</p>
             </div>
-            {/* <div className="liveButtons">
-                <button id="live">LIVE</button>
-                <button id="live">LIVE</button>
-                <button id="live">LIVE</button>
-                <button id="live">LIVE</button>
-            </div> */}
+            <div className="liveButtons">
+                <button id="live1">LIVE</button>
+                &nbsp; &nbsp;
+                <button id="live2">LIVE</button>
+            </div>
                 {/* <h1> Tommy Wiseau </h1>
                 <p className="timeAgo">8 MINUTES AGO</p>
                 <button className="live">LIVE</button>
