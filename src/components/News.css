@@ -61,3 +61,8 @@
   .Like-btns > p {
     margin:0;
   }
+ .Icons {
+   display:flex;
+   justify-content: space-between;
+   width:40%;
+  }

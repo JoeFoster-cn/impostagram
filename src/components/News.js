@@ -2,15 +2,24 @@ import React, {Component} from 'react'
 import './News.css'
 
 class News extends React.Component {
+        constructor(props) {
+            super(props);
+        }
     render() {
+        const nickname = this.props.nickname;
+        const avatar = this.props.avatar;
+        const image = this.props.image;
+        const caption = this.props.caption;
+        const likes = this.props.likes;
+
         return <article className="News" ref="News">
             <header>
                 <div className="Post-user">
                     <div className="Post-user-avatar">
-                        <img src='../images/ridge.jpg' alt="ridge" />
+                        <img src={avatar} alt={nickname} />
                     </div>
                     <div className="Post-user-nickname">
-                        Zola
+                        {nickname}
                     </div>
                     <div className="Ellipsis">
                         <i class="fas fa-ellipsis-h"></i>
@@ -19,21 +28,21 @@ class News extends React.Component {
             </header>
             <div className="Post-image">
                 <div className="Post-image-bg">
-                    <img alt="Cake" src='../images/cake.jpg' />
+                    <img alt={caption} src={image} />
                 </div>
             </div>
             <div className="Like-btns">
-                <p>
+                <p className="Icons">
                 <i class="far fa-heart"></i>
                 <i class="far fa-comment"></i>
                 <i class="fas fa-share"></i>
                 </p>
-                <p>
-                <i class="fas fa-heart"></i> 420 Likes
+                <p className="Likes">
+                <i class="fas fa-heart"></i> {likes} Likes
                 </p>
             </div>
             <div className="Post-caption">
-                <strong>Zola</strong> - Made a cake!
+                <strong>{nickname}</strong> {caption}
             </div>
         </article>
     }
