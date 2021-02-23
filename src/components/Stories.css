@@ -1,12 +1,97 @@
 .storiesContainer {
-    display: flex;
-    width: 250px;
-    margin: 0;
-    padding: 5px;
-    flex: 1 1 auto;
+    height: 230px;
+    width: 300px;
+    padding: 10px;
     border: 1px solid rgba(202, 193, 193, 0.42);
     border-radius: 5%;
-    text-align: left;
-    justify-content: space-between;
     /* box-shadow: 10px -10px 5px #CCC; */
+}
+
+.storiesContainer {
+    justify-content: space-between;
+}
+
+#stories {
+    display:inline-block;
+    color: grey;
+    height: 22px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#watch {
+    font-size: 13px;
+    font-weight: bold;
+    height:20px;
+    display:inline-block;
+}
+
+.storyExamples {
+    display: flex;
+}
+
+.example1 {
+    width: 200px;
+    height: 30px;
+}
+
+.images {
+    width: 30px;
+    height: 180px;
+    
+}
+
+.img1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    padding: 10%;
+}
+.img2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    padding: 10%;
+}
+.img3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    padding: 10%;
+}
+.img4 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    padding: 10%;
+}
+
+.info {
+    padding-top: 2%;
+    height: 180px;
+    padding-left: 10%;
+}
+
+h1 {
+    font-size: 15px;
+    margin: 0;
+}
+
+#timeAgo {
+    color: grey;
+    font-size: 8px;
+}
+
+.livebuttons {
+    width: 30px;
+    height: 180px;
+}
+
+#live {
+    background-color: red;
+    color: white;
 }
