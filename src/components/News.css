@@ -1,0 +1,68 @@
+.News {
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    margin-bottom: 60px;
+    margin-left : 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+  }
+  .Post-user {
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    border: 1px solid whitesmoke;
+  }
+  .Post-user-avatar {
+    width: 30px;
+    height: 30px;
+  }
+  .Post-user-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .Post-user-nickname {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-items: left;
+  }
+  .Post-image-bg {
+    background-color: #efefef;
+  }
+  .Post-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .Post-caption {
+    padding: 6px 6px;
+    text-align: center;
+  }
+  .Post-caption strong {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+  }
+  .vjs-fade-out {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .Like-btns {
+    padding:6px;
+    display:flex;
+    width: 30%;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Like-btns > p {
+    margin:0;
+  }
+ .Icons {
+   display:flex;
+   justify-content: space-between;
+   width:40%;
+  }
