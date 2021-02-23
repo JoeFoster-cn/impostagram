@@ -5,6 +5,7 @@ function Navbar() {
 
             </div>
             <div className="searchBar">
+                <input type = "text"></input>
 
             </div>
             <div className="iconContainer">
