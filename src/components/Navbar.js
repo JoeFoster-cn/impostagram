@@ -21,7 +21,6 @@ function Navbar() {
                 <i className="far fa-compass"></i>
                 <i className="far fa-heart"></i>
                 <img className="profilePic" src="../images/Tommy.jpg" />
-
             </div>
         </nav>
     )

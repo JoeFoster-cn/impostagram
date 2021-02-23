@@ -6,11 +6,15 @@
     border-bottom: 1pt solid rgba(0, 0, 0, 0.171);
 }
 
-i{
+.iconContainer{
     font-size: 15pt;
-    width:40px
+    display: flex;
+    align-items: center;
 }
 
+i{
+    width:40px
+}
 .profilePic{
     width: 28px;
     height: 28px;
@@ -33,15 +37,6 @@ input {
     text-align: center;
 }
 
-button{
-    border-style: none;
-    background-color: transparent;
-}
-
-.searchIcon{
-    width:15px;
-    background-color: transparent;
-}
 
 .searchbar{
   width: 15rem;
