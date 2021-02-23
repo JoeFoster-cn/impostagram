@@ -2,6 +2,7 @@ function Navbar() {
     return (
         <div className="navbarCont">
             <div className="instaLogo">
+                <img src = '../images/Instagram.png' />
 
             </div>
             <div className="searchBar">
