@@ -1,3 +1,5 @@
+import './Navbar.css'
+
 function Navbar() {
     return (
         <div className="navbarCont">
@@ -14,7 +16,7 @@ function Navbar() {
                 <i class="far fa-paper-plane"></i>
                 <i class="far fa-compass"></i>
                 <i class="far fa-heart"></i>
-                <img src = "../images/Tommy.jpg" />
+                <img className ="profilePic" src = "../images/Tommy.jpg" />
             </div>
         </div>
     )
