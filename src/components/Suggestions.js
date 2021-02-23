@@ -20,7 +20,7 @@ function Suggestions() {
                 <div className='suggestions-body-1'>
                     <p>New to Instagram</p>
                 </div>
-                <a href='#'>Follow</a>
+                <a href='#' className='follow-1'>Follow</a>
        
                 <img src="/images/puppy.jpg"className='Puppy'></img>
                 <div className='suggestions-header-2'>
@@ -29,7 +29,7 @@ function Suggestions() {
                 <div className='suggestions-body-2'>
                     <p>Followed by Mr. Beluga</p>
                 </div>
-                <a href='#'>Follow</a>
+                <a href='#' className='follow-2'>Follow</a>
            
                 <img src="/images/concernedKitty.jpg" className='Kitty'></img>
                 <div className='suggestions-header-3'>
@@ -38,7 +38,7 @@ function Suggestions() {
                 <div className='suggestions-body-3'>
                     <p>Is worried</p>
                 </div>
-                <a href='#'>Follow</a>
+                <a href='#' className='follow-3'>Follow</a>
             </div>
     
     )
