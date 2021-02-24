@@ -1,0 +1,23 @@
+.profilePhoto {
+    display: flex;
+    padding: 14px;
+}
+
+#profileImage {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#userName {
+    font-size: 15px;
+    margin: 0;
+    padding-left: 15px;
+}
+
+#name {
+    color: grey;
+    font-size: 10px;
+    padding-left: 15px;
+    margin-top: 2px;
+}
