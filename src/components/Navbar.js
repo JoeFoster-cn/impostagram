@@ -8,8 +8,7 @@ function Navbar() {
 
             <div className="searchbar">
                 <input type="text"
-                    value= "Search"
-                    results ="0">
+                    placeholder= "Search">
                         
                 </input>
                 
