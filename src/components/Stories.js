@@ -21,13 +21,13 @@ const StoryExamples = () => {
                 <img className="img4" src="../images/example4.jpg" alt="example4"/>
             </div>
             <div className="info">
-                <h1>Tommy Wiseau</h1>
+                <h1>thomas</h1>
                 <p id="timeAgo">8 MINUTES AGO</p>
-                <h1>Poppy</h1>
+                <h1>poppy</h1>
                 <p id="timeAgo">2 MINUTES AGO</p>
-                <h1>Prince</h1>
+                <h1>prince</h1>
                 <p id="timeAgo">11 HOURS AGO</p>
-                <h1>Eva</h1>
+                <h1>eva</h1>
                 <p id="timeAgo">8 MINUTES AGO</p>
             </div>
             <div className="liveButtons">
@@ -35,15 +35,6 @@ const StoryExamples = () => {
                 &nbsp; &nbsp;
                 <button id="live2">LIVE</button>
             </div>
-                {/* <h1> Tommy Wiseau </h1>
-                <p className="timeAgo">8 MINUTES AGO</p>
-                <button className="live">LIVE</button>
-            </span> */}
-                
-                {/* <h1> The Queen </h1>
-                <p className="timeAgo">6 MINUTES AGO</p>
-                <button className="live">LIVE</button>
-            </span> */}
         </div>
     ) 
 }
