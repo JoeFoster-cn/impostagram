@@ -1,6 +1,6 @@
 .navbarCont{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1pt solid rgba(0, 0, 0, 0.171);
@@ -12,9 +12,14 @@
     align-items: center;
 }
 
-i{
-    width:40px
+.iconContainer i{
+    width:40px;
 }
+
+.inbox{
+    visibility: hidden;
+}
+
 .profilePic{
     width: 28px;
     height: 28px;
