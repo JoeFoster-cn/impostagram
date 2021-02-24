@@ -27,13 +27,13 @@ const SuggestionExamples = () => {
                 <p id="post">Followed by Mr. Beluga</p>
                 <h2>Concerned Kitty</h2>
                 <p id="post">Is worried</p>
-
-                {/* <div className='follow'>
+                </div>
+                <div className='follow'>
                     <p id="follow-1">Follow</p>
                     <p id="follow-2">Follow</p>
                     <p id="follow-3">Follow</p>
-                </div> */}
-            </div>
+                </div>
+            
          </div>
     )
 }

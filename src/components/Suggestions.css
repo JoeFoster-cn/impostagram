@@ -64,3 +64,20 @@ h2 {
     margin-top: 2%;
     padding-bottom: 5%;    
 }
+
+.follow {
+    width: 30px;
+    height: 150px;
+    text-align: center;
+    padding-left: 16%;
+    padding-top: 2%;
+}
+
+#follow-1, #follow-2, #follow-3 {
+    color:blue;
+    font-size: 13px;
+    padding: 18%;
+    margin-bottom: 12%;
+    
+    
+}
