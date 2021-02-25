@@ -3,7 +3,7 @@ import './Suggestions.css';
 
 const Suggestions = () => {
     return (
-            <div className='heading'>
+            <div className='suggestionContainer'>
                 <h2 id='suggestionsTitle'>Suggestions For You</h2>  
                 <h2 id='seeall'>See All</h2>
                 <SuggestionExamples/>
