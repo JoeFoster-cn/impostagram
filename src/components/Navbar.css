@@ -1,8 +1,10 @@
 .navbarCont{
     display:flex;
     justify-content: space-evenly;
-    margin-top: 10px;
-    padding-bottom: 10px;
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: white;
     padding-left: 180px;
     border-bottom: 1pt solid rgba(0, 0, 0, 0.171);
     position: fixed;
