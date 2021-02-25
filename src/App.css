@@ -8,6 +8,20 @@
    padding-right: 15%;
 }
 
+.Icons{
+   font-size: 20pt;
+   width:100px;
+}
+
+.Like-btns i{
+   font-size: 15pt;
+}
+
+
+.Likes{
+   padding-top: 10px;
+}
+
 @media screen and (max-width: 460px) {
 
     .searchbar, .sidebar, .Post-caption {
