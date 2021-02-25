@@ -29,6 +29,7 @@
     font-weight: bold;
     justify-content: flex-start;
     align-items: left;
+    padding-right: 90%;
   }
   .Post-image-bg {
     background-color: #efefef;
@@ -46,17 +47,13 @@
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
   }
-  .vjs-fade-out {
-    display: none;
-    visibility: hidden;
-    opacity: 0;
-  }
   .Like-btns {
     padding:6px;
     display:flex;
-    width: 30%;
+    width: 20%;
     justify-content: space-between;
     flex-direction: column;
+    font-size:1.2rem;
   }
   .Like-btns > p {
     margin:0;
@@ -64,5 +61,13 @@
  .Icons {
    display:flex;
    justify-content: space-between;
-   width:40%;
+   width:30%;
+  }
+  .Post-user-nickname:hover, .Post-user-avatar:hover, .Ellipsis:hover,
+  .Post-image:hover, .Icons:hover, .Likes:hover, .Post-caption:hover {
+    cursor: pointer;
+  }
+  .Post-user-nickname:hover, .Likes:hover {
+    text-decoration: underline;
+    text-shadow: #e6e6e6;
   }

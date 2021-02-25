@@ -22,7 +22,7 @@ class News extends React.Component {
                         {nickname}
                     </div>
                     <div className="Ellipsis">
-                        <i class="fas fa-ellipsis-h"></i>
+                        <i className="fas fa-ellipsis-h"></i>
                     </div>
                 </div>
             </header>
@@ -33,9 +33,9 @@ class News extends React.Component {
             </div>
             <div className="Like-btns">
                 <p className="Icons">
-                <i class="far fa-heart"></i>
-                <i class="far fa-comment"></i>
-                <i class="fas fa-share"></i>
+                <i className="far fa-heart"></i>
+                <i className="far fa-comment"></i>
+                <i className="fas fa-share"></i>
                 </p>
                 <p className="Likes">
                 <i class="fas fa-heart"></i> {likes} Likes
