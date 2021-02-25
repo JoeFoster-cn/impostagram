@@ -10,7 +10,7 @@ function Footer() {
                 <p>Locations - Top Accounts - Hashtags - Language</p>
             </div>
             <div className="copyright">
-                <i class="fa fa-copyright" aria-hidden="true"></i>
+                <i className="fa fa-copyright" aria-hidden="true"></i>
                 <p>2020 INSTAGRAM FROM FACEBOOK</p>
             </div>
 
