@@ -74,7 +74,8 @@ h2 {
 }
 
 #follow-1, #follow-2, #follow-3 {
-    color:blue;
+    color:rgb(64, 161, 252);
+    font-weight: 700;
     font-size: 13px;
     padding: 18%;
     margin-bottom: 12%;

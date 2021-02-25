@@ -38,6 +38,7 @@
         background-color: white;
      }
      .iconContainer {
+        margin-top: -10px;
         position:fixed;
         bottom:0;
         width:100vw;
@@ -51,13 +52,36 @@
      }
      .Post-image img {
          width:100%;
-        height:500px;
+        height:400px;
      }
 
-     .inbox{
+      .Icons{
+        font-size: 20pt;
+        width:100px;
+     }
+
+     .Like-btns i{
+        font-size: 20pt;
+     }
+
+
+     .Likes{
+        padding-top: 10px;
+     }
+
+    .inbox{
          padding-top: 1%;
          font-size: 20pt;
          visibility:visible;
          float:right;
      }
+
+     .instaLogo{
+        padding-left: 35%;
+     }
+
+     .footer-nav{
+        padding-bottom: -10%;
+     }
+
   }
