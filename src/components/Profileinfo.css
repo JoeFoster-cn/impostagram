@@ -7,12 +7,18 @@
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 #userName {
     font-size: 15px;
     margin: 0;
     padding-left: 15px;
+    cursor: pointer;
+}
+
+#userName:hover {
+    text-decoration: underline;
 }
 
 #name {
