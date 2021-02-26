@@ -4,46 +4,41 @@
     position: fixed;
     top:0;
     width:100%;
-    background-color: white;
+    background-color: inherit;
     padding-left: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 1pt solid rgba(0, 0, 0, 0.171);
 }
-
 .iconContainer{
     margin-top: 10px;
     display: flex;
     justify-content: center;
     font-size: 18pt;
 }
-
 .iconContainer i{
     width:40px;
 }
-
 .inbox{
     visibility: hidden;
 }
-
 .profilePic{
     width: 28px;
     height: 28px;
     border-radius: 50%;
     margin-left: 10px;
 }
-
 .profilePic:hover {
     cursor: pointer;
 }
-
 .instaLogo{
     width:130px;
     height:50px;
+    background-color: inherit;
 }
-
 .instaLogo:hover {
     cursor: pointer;
 }
-
 input {
     width:15rem;
     height: 1.5rem;
@@ -54,13 +49,10 @@ input {
     color: grey;
     text-align: center;
 }
-
-
 .searchbar{
   width: 18rem;
   margin-top: 10px;
 }
-
 i:hover {
     cursor: pointer;
 }
