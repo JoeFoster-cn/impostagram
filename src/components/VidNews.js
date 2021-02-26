@@ -38,7 +38,7 @@ render() {
             <i className="fas fa-share"></i>
             </p>
             <p className="Likes">
-            <i class="fas fa-heart"></i> {likes} Likes
+            <i className="fas fa-heart"></i> {likes} Likes
             </p>
         </div>
         <div className="Post-caption">
