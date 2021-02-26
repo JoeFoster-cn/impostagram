@@ -60,10 +60,11 @@ html {
         display: center;
         justify-content: space-between;
         position: fixed;
+        background-color: inherit;
+        color:inherit;
         top: 0;
         left: 0;
         right: 0;
-        background-color: inherit;
      }
      .iconContainer {
         margin-top: -10px;
@@ -71,9 +72,9 @@ html {
         bottom:0;
         width:100vw;
         align-items: center;
+        background-color: inherit;
         justify-content: space-evenly;
         border: 1px solid silver;
-        background-color: inherit;
         height: 40px;
      }
      .Post-user-nickname {
@@ -101,7 +102,6 @@ html {
      }
      .instaLogo{
          padding-left:35%;
-         background-color: inherit;
      }
      .footer-nav{
         padding-bottom: -10%;
@@ -114,12 +114,6 @@ html {
     }
     .button-cont {
        top:3%;
-    }
-    html {
-      background-color:initial;
-   }
-   .body {
-      background-color: inherit;
     }
     .body-dark {
       background-color: black;

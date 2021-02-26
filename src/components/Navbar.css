@@ -4,7 +4,8 @@
     position: fixed;
     top:0;
     width:100%;
-    background-color: inherit;
+    background-color: white;
+    color: black;
     padding-left: 180px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -34,7 +35,6 @@
 .instaLogo{
     width:130px;
     height:50px;
-    background-color: inherit;
 }
 .instaLogo:hover {
     cursor: pointer;
